@@ -1,0 +1,200 @@
+img {
+    display:block;
+    max-width: 100%;
+}
+
+body {
+    background-color:#fff;
+    color: #252525;
+    font-family: 'Mukta', sans-serif;
+}
+
+a {
+    color: #252525;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #252525;
+}
+
+a:visited {
+    color: #252525;
+}
+
+q {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+/* HEADER */
+.custom-header-item-1{
+    background-color:#f5deda;
+    font-size: 0.75rem;
+}
+
+.custom-header-endereco::before, .custom-header-inspire::before {
+    align-self: center;
+    background-size: 100%;
+    content: "";
+    height: 20px;
+    margin-right: 4px;
+    width: 20px;
+}
+
+.custom-header-endereco::before {
+    background-image:  url('../images/local-icone.png');
+}
+
+.custom-header-inspire::before {
+    background-image:  url('../images/inscreva-se-icon.png');
+}
+
+.custom-header-logo img, .custom-header-logo-navbar{
+    width: 200px;
+}
+
+.custom-header-busca input{
+    border:none;
+    border-bottom: 0.2px solid #808080;
+    border-radius: 0;
+    width: 20%;
+}
+
+.custom-header-busca button {
+    width: 70%;
+}
+
+.custom-offcanvas {
+    border: 1px solid #808080 ;
+    position: absolute;
+    transform: rotate(270deg);
+}
+
+/* MAIN */
+.custom-section-1 {
+    background-color: #eadfdd;
+    font-weight: bold;
+}
+
+.custom-section-1 h2{
+    font-weight: bolder;
+}
+
+.custom-section-3 {
+    font-weight: bold;
+}
+
+.custom-section-3 h2, .custom-section-4 h2 {
+    font-size: 3.10rem;
+    font-weight: bolder;
+}
+
+.custom-section-4 {
+    background-color: #fff1f0;
+}
+
+.custom-depoimentos img{
+    opacity: 0.3;
+    width: 120px;
+}
+
+.custom-depoimentos img.active{
+    opacity: 1;
+}
+
+.custom-servicos p {
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.custom-empresa, .custom-links a{
+    opacity: 0.6;
+}
+
+.custom-newsletter h3, .custom-links h3 {
+    font-size: 1.2rem ;
+}
+
+.custom-newsletter input{
+    background-color: #f8f8f8 ;
+    border:none;
+    border-bottom: 0.2px solid #808080;
+}
+
+.custom-newsletter button{
+    background-color: #c5c5c5;
+    border: none;
+    color:#fff;
+}
+
+
+/* FOOTER */
+.custom-accordion li {
+    opacity: 0.6;
+    border-bottom: 1px solid #808080;
+}
+
+footer {
+    background-color: #f8f8f8;
+}
+
+address {
+    font-size: 0.75rem;
+}
+
+/* RESPONSIVO */
+
+@media screen and (min-width: 992px) and (max-width:1195px) {
+    .custom-header-endereco, .custom-header-inspire {
+        font-size: 0.7rem;
+    }
+    
+    .nav-link {
+        font-size: 0.75rem;
+    }
+
+    .custom-social h3 {
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .custom-section-1 li {
+        font-size: small;
+    }
+
+    q {
+        font-size: 1.18rem;
+    }
+
+    .custom-servicos {
+        justify-content: space-around;
+    }
+
+    .custom-servicos h3, .custom-social h3 {
+        font-size: 0.87rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .custom-section-1 h2 {
+        font-size: 1.5rem;
+    }
+
+    .custom-section-3 h2 {
+        font-size: 2.25rem;
+        
+    }
+
+    .custom-servicos h3 {
+        font-size: 0.87rem;
+    }
+
+    q {
+        font-size: 1.18rem;
+    }
+}
