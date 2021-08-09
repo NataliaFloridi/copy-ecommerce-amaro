@@ -6,10 +6,6 @@ Improve my coding skills creating a copy of e-commerce "Amaro"
 
 Copy a website using HTML, CSS and Bootstrap 5.
 
-### Screenshot
-
-![Screenshot Curriculum]()
-
 ### Links
 
 - Live Site URL: []()
